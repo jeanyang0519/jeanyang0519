@@ -13,6 +13,9 @@
     font-size: 90px;
 }
 
-.items.style1.medium > education {
-    width: 400px;
+
+
+#education-section {
+    width: 100%;
+    
 }
