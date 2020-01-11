@@ -1,0 +1,18 @@
+.tech-items {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 30px;
+}
+.tech-items svg {
+    height: 100px;
+    place-self: center;
+    padding-bottom: 10px;
+}
+
+.tech-items i {
+    font-size: 90px;
+}
+
+.items.style1.medium > education {
+    width: 400px;
+}

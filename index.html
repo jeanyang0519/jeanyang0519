@@ -8,8 +8,12 @@
 	<head>
 		<title>Jean Yang</title>
 		<meta charset="utf-8" />
+		<link rel="stylesheet"
+			href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/custom.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -22,7 +26,7 @@
 						<div class="content">
 							<h1>Jean Yang</h1>
 							<p class="major">I'm a full stack software engineer, proficient with React, Redux, and JavaScript. Loves hiking, traveling, and squash.</p>
-							<ul class="actions stacked">
+							<ul class="actions">
 								<li><a href="#first" class="button big wide smooth-scroll-middle">Resume</a></li>
 							</ul>
 						</div>
@@ -37,9 +41,9 @@
 							<h2>Lifgram</h2>
 							<p>Lifegram is a social media platform inspired by Instagram for people who enjoy sharing their life snippets with posts,
 							image uploads, comments, and likes functions.</p>
-							<ul class="actions stacked">
+							<ul class="actions" id="buttons">
 								<li><a href="https://lifegram.herokuapp.com/#/" class="button">Live</a></li>
-								<li><a href="https://github.com/jeanyang0519/Lifegram" class="button">Gitbub</a></li>
+								<li><a href="https://github.com/jeanyang0519/Lifegram" class="button">Github</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -56,9 +60,9 @@
 							the corner.</p> 
 							<p>Hello Avocado is an interactive data visualization on avocado global trade and production. Have fun and get to know more
 							about avocados!</p>
-							<ul class="actions stacked">
+							<ul class="actions">
 								<li><a href="https://jeanyang0519.github.io/Hello-Avocado/" class="button">Live</a></li>
-								<li><a href="https://github.com/jeanyang0519/Hello-Avocado" class="button">Gitbub</a></li>
+								<li><a href="https://github.com/jeanyang0519/Hello-Avocado" class="button">Github</a></li>
 							</ul>
 						</div>
 						<div class="image" width="300px">
@@ -71,9 +75,9 @@
 						<div class="content">
 							<h2>Light Up</h2>
 							<p>A mentorship community for students to connect over shared interests and goals.</p>
-							<ul class="actions stacked">
+							<ul class="actions live" >
 								<li><a href="http://light--up.herokuapp.com/#/" class="button">Live</a></li>
-								<li><a href="https://github.com/jeanyang0519/Light-Up" class="button">Gitbub</a></li>
+								<li><a href="https://github.com/jeanyang0519/Light-Up" class="button">Github</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -82,11 +86,45 @@
 					</section>
 
 				<!-- Five -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h2>Technologies</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+				<section class="wrapper style1 align-center">
+					<div class="inner">
+						<h2>Technologies</h2>
+						<div class="tech-items">
+							<i class="devicon-d3js-plain colored"></i>
+							<i class="devicon-bootstrap-plain-wordmark colored"></i>
+							<i class="devicon-react-original-wordmark colored"></i>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+								<g fill="#764ABC">
+									<path
+									d="M65.6 65.4c2.9-.3 5.1-2.8 5-5.8-.1-3-2.6-5.4-5.6-5.4h-.2c-3.1.1-5.5 2.7-5.4 5.8.1 1.5.7 2.8 1.6 3.7-3.4 6.7-8.6 11.6-16.4 15.7-5.3 2.8-10.8 3.8-16.3 3.1-4.5-.6-8-2.6-10.2-5.9-3.2-4.9-3.5-10.2-.8-15.5 1.9-3.8 4.9-6.6 6.8-8-.4-1.3-1-3.5-1.3-5.1-14.5 10.5-13 24.7-8.6 31.4 3.3 5 10 8.1 17.4 8.1 2 0 4-.2 6-.7 12.8-2.5 22.5-10.1 28-21.4z" />
+									<path
+									d="M83.2 53c-7.6-8.9-18.8-13.8-31.6-13.8H50c-.9-1.8-2.8-3-4.9-3h-.2c-3.1.1-5.5 2.7-5.4 5.8.1 3 2.6 5.4 5.6 5.4h.2c2.2-.1 4.1-1.5 4.9-3.4H52c7.6 0 14.8 2.2 21.3 6.5 5 3.3 8.6 7.6 10.6 12.8 1.7 4.2 1.6 8.3-.2 11.8-2.8 5.3-7.5 8.2-13.7 8.2-4 0-7.8-1.2-9.8-2.1-1.1 1-3.1 2.6-4.5 3.6 4.3 2 8.7 3.1 12.9 3.1 9.6 0 16.7-5.3 19.4-10.6 2.9-5.8 2.7-15.8-4.8-24.3z" />
+									<path
+									d="M32.4 67.1c.1 3 2.6 5.4 5.6 5.4h.2c3.1-.1 5.5-2.7 5.4-5.8-.1-3-2.6-5.4-5.6-5.4h-.2c-.2 0-.5 0-.7.1-4.1-6.8-5.8-14.2-5.2-22.2.4-6 2.4-11.2 5.9-15.5 2.9-3.7 8.5-5.5 12.3-5.6 10.6-.2 15.1 13 15.4 18.3 1.3.3 3.5 1 5 1.5-1.2-16.2-11.2-24.6-20.8-24.6-9 0-17.3 6.5-20.6 16.1-4.6 12.8-1.6 25.1 4 34.8-.5.7-.8 1.8-.7 2.9z" />
+								</g>
+							</svg>
+							<i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+							<i class="devicon-mongodb-plain-wordmark colored"></i>
+							<i class="devicon-nodejs-plain-wordmark colored"></i>
+							<i class="devicon-javascript-plain colored"></i>
+							<i class="devicon-ruby-plain-wordmark colored"></i>
+							<i class="devicon-rails-plain-wordmark colored"></i>
+							<i class="devicon-postgresql-plain-wordmark colored"></i>
+							<i class="devicon-webpack-plain-wordmark colored"></i>
+							<i class="devicon-git-plain-wordmark colored"></i>
+							<i class="devicon-sass-original colored"></i>
+							<i class="devicon-css3-plain-wordmark colored"></i>
+							<i class="devicon-html5-plain-wordmark colored"></i>
+							<i class="devicon-jquery-plain-wordmark colored"></i>
+							<i class="devicon-heroku-plain-wordmark colored"></i>
+							<i class="devicon-mocha-plain colored"></i>
+							<i class="devicon-atom-original-wordmark colored"></i>
+							<i class="devicon-visualstudio-plain-wordmark colored"></i>
+							
+				
 						</div>
+					</div>
+				</section>
 
 						<!-- Gallery -->
 							<!-- <div class="gallery style2 medium lightbox onscroll-fade-in">
@@ -244,17 +282,19 @@
 							<h2>Education</h2>
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p> -->
 							<div class="items style1 medium onscroll-fade-in">
-								<section>
-									<span class="icon style2 major fa-gem"></span>
+								<section style="width: 400px;">
+									<img src="images/appacademy_logo.png" width='150'>
 									<h3>App Academy</h3>
+									<p>New York</p>
 									<h4>Fall Stack Web Development</h4>
 									<h4>September 2019 - January 2020</h4>
 									<p>Over 1,000 hours of rigorous full stack web development course with 3% acceptance rate</p>
 								</section>
-								<section>
-									<span class="icon solid style2 major fa-save"></span>
+								<section style="width: 400px;">
+									<img src="images/columbia.png" width="120"/>
 									<h3>Columbia University</h3>
-									<h4>M.A. International Educational Development</h4>
+									<p>New York</p>
+									<h4>International Educational Development</h4>
 									<h4>September 2018 - December 2019</h4>
 									<p>Concentration in International Policy and Planning</p>
 								</section>
@@ -296,11 +336,11 @@
 							<ul class="icons">
 								
 								<li><a href="https://www.linkedin.com/in/jean-yang-327497156/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/jeanyang0519" class="icon brands style2 fa-facebook-f"><span class="label">Gitbub</span></a></li>
-								<li><a href="https://angel.co/jean-yang-5" class="icon brands style2 fa-facebook-f"><span class="label">Angelist</span></a></li>
-								<li><a href="sy2803@tc.columbia.edu" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://github.com/jeanyang0519" class="icon brands style2 fa-github"><span class="label">Gitbub</span></a></li>
+								<li><a href="https://angel.co/jean-yang-5" class="icon brands style2 fa-angellist"><span class="label">Angelist</span></a></li>
+								<li><a href="mailto:sy2803@tc.columbia.edu" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
-							<p>&copy; jeanyang. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+							
 						</div>
 					</footer>
 
